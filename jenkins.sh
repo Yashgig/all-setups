@@ -2,7 +2,7 @@
 yum install git -y
 
 #STEP-2: DOWNLOAD JAVA11 AND JENKINS
-yum install java-17-amazon-corretto -y
+yum install java-21-amazon-corretto -y
 
 #STEP-3: GETTING THE REPO (jenkins.io --> download -- > redhat)
 sudo wget -O /etc/yum.repos.d/jenkins.repo \
