@@ -10,7 +10,7 @@ sudo wget -O /etc/yum.repos.d/jenkins.repo \
 sudo yum upgrade
 # Add required dependencies for the jenkins package
 sudo yum install fontconfig java-21-openjdk
-sudo yum install jenkins -y
+sudo yum install jenkins
 
 #STEP-4: RESTARTING JENKINS (when we download service it will on stopped state)
 systemctl start jenkins.service
